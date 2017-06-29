@@ -69,10 +69,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
         btn_eql.setOnClickListener(this);
         btn_del.setOnClickListener(this);
         btn_clear.setOnClickListener(this);
-
     }
-
-
     public void onClick(View v) {
         String str=editView.getText().toString();
         switch(v.getId()){
